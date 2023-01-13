@@ -1,0 +1,61 @@
+ /* header navbar sidebar-toggle color When cursor hovers over it changes color*/ 
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+background-color: #95C100;
+}
+
+.sidebar-toggle {
+  display: none;
+}
+
+/* Used to truncate text that falls outside of boxes */
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* background color of header (logo part) */
+.skin-blue .main-header .logo {
+          background-color: #323f3f; /* backgorund color of the logo header part */
+          color: black; /* title text color */
+          height: 50px;
+        }
+        
+        
+/* change the background color of header (logo part) when mouse hover */
+.skin-blue .main-header .logo:hover {
+          background-color: #95C100; /* backgorund color of the logo header part on mouse hover */
+          
+        }
+  
+/* Edit the below for the header title hyperlink */
+.skin-blue .main-header .logo>a {
+            color: white; /* color of the hyperlink text */
+
+          
+        }
+        
+/* Edit the below to get the header title hyperlink hover effect */  
+.skin-blue .main-header .logo>a:hover {
+          color:black;  /* color of the hyperlink text on mouse hover */
+          
+        }
+        
+ /* background color of header (navigation bar) */       
+.skin-blue .main-header .navbar {
+background-color: #323f3f;
+}
+
+/* background color of header (navigation bar) changes when mouse hover*/  
+.skin-blue .main-header:hover {
+background-color: #95C100;
+}
+
+/* Tooltip info box styling */
+.tooltip-inner {
+  max-width: 350px;
+  width: 350px; 
+  text-align: left;
+  z-index: 10000;
+}
+
